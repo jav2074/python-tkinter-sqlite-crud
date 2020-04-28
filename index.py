@@ -136,6 +136,7 @@ class Product:
         self.message['text'] = 'Record {} updated successfylly'.format(name)
         self.get_products()
 
+
 if __name__ == '__main__':
     window = Tk()
     application = Product(window)
